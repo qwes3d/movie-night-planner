@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Watchlist | Movie Night Planner</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Toast Notification -->
+    <div id="toast"></div>
+
+    <!-- Header -->
+    <header>
+        <h1>🍿 My Watchlist</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="watchlist.html">Watchlist</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Movie Picker Section -->
+        <section class="search-section">
+
+            <h2>Ready for Movie Night?</h2>
+
+            <button id="pickMovieBtn">
+                🎲 Pick Tonight's Movie
+            </button>
+
+            <div id="pickedMovie"></div>
+
+        </section>
+
+        <!-- Watchlist Movies -->
+        <section
+            id="watchlistContainer"
+            class="movie-grid"
+        >
+        </section>
+
+    </main>
+
+    <script src="js/watchlist.js"></script>
+
+</body>
+</html>
